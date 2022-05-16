@@ -1,0 +1,31 @@
+.item1 { grid-area: en; }
+.item2 { grid-area: to; }
+.item3 { grid-area: tre; }
+.item4 { grid-area: fire; }
+.item5 { grid-area: fem; }
+.item6 { grid-area: seks;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'en to tre'
+    'fire fem seks';
+  gap: 10px;
+  background-color: #102b3e;
+  padding: 10px;
+  margin: -10px
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 190px;
+  font-family: bahnschrift;
+  color: #f6f6f6;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 50%;
+
+}
