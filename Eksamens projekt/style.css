@@ -9,19 +9,20 @@ body {
   flex-wrap: nowrap;
   margin: -8px;
   background-color: #f6f6f6;;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 div.logo img {
-  max-width: 300px;
+  max-width: 310px;
   padding: 30px;
+  margin-right: px;
 }
 
 .animation {
 	width: 1000px;
 	height: 150px;
-	background: url('billeder/animation.png') 0 0 no-repeat; 	 
+  margin:auto;
+	background: url('billeder/anim11_Tegnebræt\ 1.png') 0 0 no-repeat; 	 
 	animation: play 5s steps(97) infinite;
 }
 @keyframes play {
