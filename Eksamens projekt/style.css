@@ -5,7 +5,7 @@ body {
 
 .flexcontainer {
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin: -8px;
   background-color: #f6f6f6;;
   justify-content: flex-start;
@@ -14,7 +14,6 @@ body {
 div.logo img {
   max-width: 310px;
   padding: 30px;
-  margin-right: px;
 }
 
 .animation {
@@ -31,27 +30,27 @@ div.logo img {
 
 .flexcontainer2 {
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin: 8px;
   margin-top:100px;
-  background-color: #f6f6f6;;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-.flexcontainer2 > div.item4 {
-background-color: aqua;
-padding: 100px;
-
-}
-
-.flexcontainer2 > div.item5 {
-background-color: aqua;
-padding: 100px;
+.flexcontainer2 > div.mw img {
+border-radius: 100px;
+width: 500px;
 
 }
 
-.flexcontainer2 > div.item6 {
-  background-color: aqua;
-  padding: 1px;
+.flexcontainer2 > div.abm img {
+width: 500px;
+border-radius: 100px;
+  
+  }
+
+.flexcontainer2 > div.ctc img {
+border-radius: 100px;
+width: 500px;
+
   
   }
