@@ -23,9 +23,8 @@ div.item1 img {
 }
 
 div.item2 img {
-width: 1000px;
-height: 150px;
-padding-top: 25px;
+max-width: 150px;
+padding-top: 4px;
 
 }
 
