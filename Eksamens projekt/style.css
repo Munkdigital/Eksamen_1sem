@@ -24,8 +24,14 @@
   color: #f6f6f6;
 }
 
-img {
+div.item2 img {
     max-width: 300px;
-    border-radius: 50%;
+
+}
+
+div.item1 img {
+  max-width: 500px;
+  max-height: auto;
+  margin-top: 100px;
 
 }
