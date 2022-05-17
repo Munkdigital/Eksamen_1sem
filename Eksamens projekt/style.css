@@ -7,8 +7,10 @@ body {
 .flexcontainer {
   display:flex;
   flex-wrap: nowrap;
-  background-color: #f6f6f6;
-
+  margin: -8px;
+  background-color: #f6f6f6;;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 div.logo img {
