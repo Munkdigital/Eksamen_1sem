@@ -21,7 +21,7 @@ div.logo img {
   flex-wrap: wrap;
   margin: 8px;
   margin-top:100px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   max-height: 800px;
   
   }
