@@ -16,38 +16,58 @@ div.logo img {
   padding: 30px;
 }
 
-.flexcontainer2 {
+  .flexcontainer2 {
   display:flex;
   flex-wrap: wrap;
   margin: 8px;
   margin-top:100px;
   justify-content: space-evenly;
+  max-height: 800px;
   
   }
    
-  .flexcontainer2 > div.mw img {
+  .flexmw img {
   border-radius: 25px;
   width: 300px;
   padding: 10px;
-  
   }
-  
-  .flexcontainer2 > div.abm img {
+
+  .flexmw img:hover {
+  border-radius: 25px;
+  transform:scale(1.1,1.1);
+  padding: 10px;
+  opacity: 80%;
+  }
+
+  .flexabm img {
   width: 300px;
   border-radius: 25px;
   padding:10px;
     
-    }
+  }
+
+  .flexabm img:hover {
+  border-radius: 25px;
+  transform:scale(1.1,1.1);
+  padding:10px;
+  opacity: 80%;
+      
+  }
   
-  .flexcontainer2 > div.ctc img {
+
+  .flexctc img {
   border-radius: 25px;
   width: 300px;
   padding:10px;
 
   }
 
-  .abm:hover {
+  .flexctc img:hover {
+  border-radius: 25px;
+  transform:scale(1.1,1.1);
+  padding:10px;
   opacity: 80%;
+  
   }
 
 @media only screen and (min-width: 600px) {
@@ -80,22 +100,43 @@ justify-content: space-evenly;
 
 }
  
-.flexcontainer2 > div.mw img {
+.flexcontainer2 > div.flexmw img {
 border-radius: 70px;
 width: 400px;
 
 }
 
-.flexcontainer2 > div.abm img {
+.flexcontainer2 > div.flexmw img:hover {
+border-radius: 70px;
+transform:scale(1.1,1.1);
+opacity: 80%;
+}
+
+.flexcontainer2 > div.flexabm img {
 width: 400px;
 border-radius: 70px;
   
-  }
+}
 
-.flexcontainer2 > div.ctc img {
+.flexcontainer2 > div.flexabm img:hover {
+transform:scale(1,1.1,1);
+border-radius: 70px;
+opacity: 80%;
+}
+
+.flexcontainer2 > div.flexctc img {
 border-radius: 70px;
 width: 400px;
 
-  }
+}
+
+.flexcontainer2 > div.flexctc img:hover {
+border-radius: 70px;
+transform:scale(1,1.1,1);
+opacity: 80%;
+    
+}
+
+
 
 }
