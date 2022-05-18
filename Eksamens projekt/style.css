@@ -8,27 +8,13 @@ body {
   flex-wrap: nowrap;
   margin: -8px;
   background-color: #f6f6f6;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 div.logo img {
-  max-width: 200px;
+  max-width: 300px;
   padding: 30px;
 }
-
-.animation {
-  display:none;
-	width: 1000px;
-	height: 150px;
-  margin:auto;
-	background: url('billeder/anim11_Tegnebræt\ 1.png') 0 0 no-repeat; 	 
-	animation: play 5s steps(97) infinite;
-}
-@keyframes play {
-	0%{background: position 0px;}
-   100% { background-position: -97000px ; }
-}
-
 
 .flexcontainer2 {
   display:flex;
@@ -41,13 +27,13 @@ div.logo img {
    
   .flexcontainer2 > div.mw img {
   border-radius: 25px;
-  width: 200px;
+  width: 300px;
   padding: 10px;
   
   }
   
   .flexcontainer2 > div.abm img {
-  width: 200px;
+  width: 300px;
   border-radius: 25px;
   padding:10px;
     
@@ -55,7 +41,7 @@ div.logo img {
   
   .flexcontainer2 > div.ctc img {
   border-radius: 25px;
-  width: 200px;
+  width: 300px;
   padding:10px;
 
   }
@@ -68,7 +54,7 @@ padding: 30px;
 }
 
 .animation {
-  display: block;
+  display: show;
 	width: 1000px;
 	height: 150px;
   margin:auto;
