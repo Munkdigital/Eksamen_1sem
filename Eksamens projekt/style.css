@@ -31,7 +31,6 @@ div.logo img {
   .flexmw img {
   border-radius: 25px;
   width: 300px;
-  padding: 10px;
   }
 
   .flexmw img:hover {
@@ -103,42 +102,129 @@ justify-content: space-evenly;
 
 }
  
-.flexcontainer2 > div.flexmw img {
+.flexmw {
+position:relative;
 border-radius: 70px;
+height: 400px;
 width: 400px;
 
 }
 
-.flexcontainer2 > div.flexmw img:hover {
-border-radius: 70px;
-transform:scale(1.1,1.1);
-opacity: 80%;
+.flexmw_img {
+display: block;
+width: 100%;
+
 }
 
-.flexcontainer2 > div.flexabm img {
-width: 400px;
+.flexmw_overlay  {
+position:absolute;
+top:0;
+left: 0;
+height: 100%;
+width: 100%;
 border-radius: 70px;
+background: rgba(0, 0, 0, 0.6);
+color:#f6f6f6;
+font-family: bahnschrift;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: 0.25s;
+
+}
+
+.flexmw_title {
+font-size: 35px;
+
+}
+
+.flexmw_overlay:hover {
+opacity: 1;
+}
+
+.flexabm {
+  position:relative;
+  border-radius: 70px;
+  height: 400px;
+  width: 400px;
   
-}
+  }
+  
+  .flexabm_img {
+  display: block;
+  width: 100%;
+  
+  }
+  
+  .flexabm_overlay  {
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 70px;
+  background: rgba(0, 0, 0, 0.6);
+  color:#f6f6f6;
+  font-family: bahnschrift;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+  
+  }
+  
+  .flexabm_title {
+  font-size: 35px;
+  
+  }
+  
+  .flexabm_overlay:hover {
+  opacity: 1;
+  }
 
-.flexcontainer2 > div.flexabm img:hover {
-transform:scale(1,1.1,1);
-border-radius: 70px;
-opacity: 80%;
-}
-
-.flexcontainer2 > div.flexctc img {
-border-radius: 70px;
-width: 400px;
-
-}
-
-.flexcontainer2 > div.flexctc img:hover {
-border-radius: 70px;
-transform:scale(1,1.1,1);
-opacity: 80%;
+  .flexctc {
+    position:relative;
+    border-radius: 70px;
+    height: 400px;
+    width: 400px;
     
-}
+    }
+    
+    .flexctc_img {
+    display: block;
+    width: 100%;
+    
+    }
+    
+    .flexctc_overlay  {
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 70px;
+    background: rgba(0, 0, 0, 0.6);
+    color:#f6f6f6;
+    font-family: bahnschrift;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+    
+    }
+    
+    .flexctc_title {
+    font-size: 35px;
+    
+    }
+    
+    .flexctc_overlay:hover {
+    opacity: 1;
+    }
+
 
 
 
