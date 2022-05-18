@@ -46,6 +46,10 @@ div.logo img {
 
   }
 
+  .abm:hover {
+  opacity: 80%;
+  }
+
 @media only screen and (min-width: 600px) {
 
 div.logo img {
@@ -61,6 +65,7 @@ padding: 30px;
 	background: url('billeder/anim11_Tegnebræt\ 1.png') 0 0 no-repeat; 	 
 	animation: play 5s steps(97) infinite;
 }
+
 @keyframes play {
 	0%{background: position 0px;}
    100% { background-position: -97000px ; }
@@ -70,26 +75,26 @@ padding: 30px;
 display:flex;
 flex-wrap: wrap;
 margin: 8px;
-margin-top:100px;
+margin-top:80px;
 justify-content: space-evenly;
 
 }
  
 .flexcontainer2 > div.mw img {
-border-radius: 100px;
-width: 500px;
+border-radius: 70px;
+width: 400px;
 
 }
 
 .flexcontainer2 > div.abm img {
-width: 500px;
-border-radius: 100px;
+width: 400px;
+border-radius: 70px;
   
   }
 
 .flexcontainer2 > div.ctc img {
-border-radius: 100px;
-width: 500px;
+border-radius: 70px;
+width: 400px;
 
   }
 
