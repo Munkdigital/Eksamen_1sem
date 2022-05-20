@@ -16,6 +16,14 @@ div.logo img {
   padding: 30px;
 }
 
+.forside_title {
+font-size: 30px;
+text-align: center;
+color: #f6f6f6;
+font-family: bahnschrift;
+}
+
+
   .flexcontainer2 {
   display:flex;
   flex-wrap: nowrap;
@@ -150,6 +158,13 @@ div.logo img {
 	0%{background: position 0px;}
   100% { background-position: -97000px ; }
   }
+
+  .forside_title {
+    font-size: 55px;
+    text-align: center;
+    color: #f6f6f6;
+    font-family: bahnschrift;
+    }
 
   .flexcontainer2 {
   display:flex;
