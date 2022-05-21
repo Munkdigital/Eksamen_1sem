@@ -1,35 +1,45 @@
 body {
-background-color: #081a26;
-
-}
-
-.flexcontainer {
-    display:flex;
-    flex-wrap: nowrap;
-    margin: -8px;
-    background-color: #f6f6f6;
-    justify-content: center;
+    background-color: #284458;
+    }
+    
+    .flexcontainer {
+      display:flex;
+      flex-wrap: nowrap;
+      margin: -8px;
+      background-color: #f6f6f6;
+      justify-content: center;
+    }
+  
+    div.logo img {
+      max-width: 310px;
+      padding: 30px;
+    }
+  
+  .flexcontainer2 {
+  position:absolute;
+  width: 600px;
+  height:742.5px;
+  margin: -8px;
+  margin-top: 8px ;
+  border: #081A26;
+  background-color: #081A26;
   }
-
-  div.logo img {
-    max-width: 310px;
-    padding: 30px;
-  }
-
-.om_mig {
-position:relative;
-width: 1114px;
-margin-top: -72px;
-margin-right: -8px;
-float: right;
-}
-
-.ommig_header {
+  
+  .kontakt_header {
     text-align: start;
     font-family: bahnschrift;
-    font-size: 55px;
+    font-size: 50px;
     color:#f6f6f6 ;
     margin-left:25px;
-    margin-top: 80px;
-    line-height: 1;
-}
+    margin-top: 192px;
+    line-height: 30px;
+  }
+  
+  .mail {
+  font-size: 40px;
+  }
+  
+  .nummer {
+  font-size: 40px;
+  
+  }
