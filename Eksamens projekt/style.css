@@ -170,8 +170,6 @@ font-family: bahnschrift;
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 8px;
-  margin-top:80px;
   justify-content: space-evenly;
 
   }
