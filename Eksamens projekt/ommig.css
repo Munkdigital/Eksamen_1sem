@@ -15,7 +15,7 @@ body {
       padding: 30px;
     }
   
-  .flexcontainer2 {
+  .container {
   position:absolute;
   width: 600px;
   height:742.5px;
@@ -43,3 +43,31 @@ body {
   font-size: 40px;
   
   }
+
+.om_mig {grid-area: billede;}
+.ph {grid-area: ph;}
+.il {grid-area: il;}
+.in {grid-area: in;}
+.xd {grid-area: xd;}
+.pr {grid-area: pr;}
+.an {grid-area: an;}
+
+.gridcontainer {
+margin-top: 8px;
+float: right;
+display: grid;
+grid-template-areas: 
+'om_mig om_mig om_mig om_mig om_mig om_mig'
+'ph il in xd pr an';
+gap:10px;
+
+}
+
+.gridcontainer > div {
+text-align: center;
+
+}
+
+.om_mig {
+width: 400px;
+}
