@@ -1,3 +1,8 @@
+body {
+background-color: #081a26;
+
+}
+
 .flexcontainer {
     display:flex;
     flex-wrap: nowrap;
@@ -10,3 +15,21 @@
     max-width: 310px;
     padding: 30px;
   }
+
+.om_mig {
+position:relative;
+width: 1114px;
+margin-top: -72px;
+margin-right: -8px;
+float: right;
+}
+
+.ommig_header {
+    text-align: start;
+    font-family: bahnschrift;
+    font-size: 55px;
+    color:#f6f6f6 ;
+    margin-left:25px;
+    margin-top: 80px;
+    line-height: 1;
+}

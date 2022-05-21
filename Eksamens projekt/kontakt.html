@@ -21,20 +21,18 @@
     </div>
 
     <div class="container">
-        <form action="/action_page.php">
-          <label for="fname"></label>
-          <input type="text" id="navn" name="Navn" placeholder="Navn">
-      
-          <label for="lname"></label>
-          <input type="text" id="emne" name="Emne" placeholder="Emne">
-      
-          <label for="subject"></label>
-          <textarea id="subject" name="subject" placeholder="Skriv en besked..." style="height:200px"></textarea>
-          <input type="submit" value="Submit">
+        <form class="kontaktform">
+          <div class="login">
+            <input type="text" id="navn" name="navn" placeholder="Navn">
+            <input type="text" id="email" name="email" placeholder="E-mail">
+          </div>
+          <input type="text" id="emne" name="emne" placeholder="Emne">
+          <textarea id="subject" name="subject" placeholder="Skriv en besked..." style="height:147px"></textarea>
+          <div class="sub">
+            <input type="submit" id="submit" value="Submit">
+          </div>
         </form>
       </div>
-
-
     </div>
 </body>
 </html>
