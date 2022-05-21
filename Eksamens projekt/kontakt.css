@@ -1,5 +1,21 @@
 body {
-    background-color: #081A26;
+  background-color: none;
   }
   
+  .flexcontainer {
+    display:flex;
+    flex-wrap: nowrap;
+    margin: -8px;
+    background-color: #f6f6f6;
+    justify-content: center;
+  }
+
+  div.logo img {
+    max-width: 310px;
+    padding: 30px;
+  }
   
+  .flexcontainer2 {
+    display: flex;
+    background-image: url('kontaktbillede.png');
+  }
