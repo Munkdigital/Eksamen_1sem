@@ -1,0 +1,299 @@
+
+body {
+  background-color: #081A26;
+}
+
+.flexcontainer {
+  display:flex;
+  flex-wrap: nowrap;
+  margin: -8px;
+  background-color: #f6f6f6;
+  justify-content: center;
+}
+
+div.logo img {
+  max-width: 300px;
+  padding: 30px;
+}
+
+.forside_title {
+font-size: 30px;
+text-align: center;
+color: #f6f6f6;
+font-family: bahnschrift;
+}
+
+
+  .flexcontainer2 {
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 8px;
+  margin-top:50px;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 800px;
+  
+  }
+  
+  .flexmw {
+  position:relative;
+  border-radius: 70px;
+  height: 300px;
+  width: 300px;
+  }
+
+  .flexmw_img {
+  border-radius: 70px;
+  width: 300px;
+  }
+
+  .flexmw_overlay  {
+  position:absolute;
+  top:115px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color:#f6f6f6;
+  font-family: bahnschrift;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .flexmw_title {
+  font-size: 35px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right:30px;
+  background-color: #eb3845;
+  border-radius: 20px;
+  }
+
+  .flexabm {
+  position:relative;
+  border-radius: 70px;
+  height: 300px;
+  width: 300px;
+  }
+
+  .flexabm_img {
+  border-radius: 70px;
+  width: 300px;
+  }
+
+  .flexabm_overlay  {
+    position:absolute;
+    top:115px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color:#f6f6f6;
+    font-family: bahnschrift;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  .flexabm_title {
+    font-size: 35px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    background-color: #eb3845;
+    border-radius: 20px;
+    }
+
+  .flexctc {
+  position:relative;
+  border-radius: 70px;
+  height: 300px;
+  width: 300px;
+  }
+
+  .flexctc_img {
+  border-radius: 70px;
+  width: 300px;
+  }
+
+  .flexctc_overlay  {
+    position:absolute;
+    top:115px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color:#f6f6f6;
+    font-family: bahnschrift;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+  .flexctc_title {
+    font-size: 35px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    background-color: #eb3845;
+    border-radius: 20px;
+    }
+
+@media only screen and (min-width: 600px) {
+
+  div.logo img {
+  max-width: 310px;
+  padding: 30px;
+  }
+
+  .animation {
+  display: show;
+	width: 1000px;
+	height: 150px;
+  margin:auto;
+	background: url('billeder/anim11_Tegnebræt\ 1.png') 0 0 no-repeat; 	 
+	animation: play 5s steps(97) infinite;
+  }
+
+  @keyframes play {
+	0%{background: position 0px;}
+  100% { background-position: -97000px ; }
+  }
+
+  .forside_title {
+    font-size: 55px;
+    text-align: center;
+    color: #f6f6f6;
+    font-family: bahnschrift;
+    }
+
+  .flexcontainer2 {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  }
+ 
+  .flexmw {
+  position:relative;
+  border-radius: 70px;
+  height: 400px;
+  width: 400px;
+
+  }
+
+  .flexmw_img {
+  display: block;
+  width: 100%;
+  }
+
+  .flexmw_overlay  {
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 70px;
+  background: rgba(0, 0, 0, 0.6);
+  color:#f6f6f6;
+  font-family: bahnschrift;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+
+  }
+
+  .flexmw_title {
+  font-size: 35px;
+
+  }
+
+  .flexmw_overlay:hover {
+  opacity: 1;
+  }
+
+  .flexabm {
+  position:relative;
+  border-radius: 70px;
+  height: 400px;
+  width: 400px;
+  
+  }
+  
+  .flexabm_img {
+  display: block;
+  width: 100%;
+  
+  }
+  
+  .flexabm_overlay  {
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 70px;
+  background: rgba(0, 0, 0, 0.6);
+  color:#f6f6f6;
+  font-family: bahnschrift;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+  
+  }
+  
+  .flexabm_title {
+  font-size: 35px;
+  
+  }
+  
+  .flexabm_overlay:hover {
+  opacity: 1;
+  }
+
+  .flexctc {
+  position:relative;
+  border-radius: 70px;
+  height: 400px;
+  width: 400px;
+    
+  }
+    
+  .flexctc_img {
+  display: block;
+  width: 100%;
+    
+  }
+    
+  .flexctc_overlay  {
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 70px;
+  background: rgba(0, 0, 0, 0.6);
+  color:#f6f6f6;
+  font-family: bahnschrift;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+    
+  }
+    
+  .flexctc_title {
+  font-size: 35px;
+    
+  }
+    
+  .flexctc_overlay:hover {
+  opacity: 1;
+  }
+
+}
