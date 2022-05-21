@@ -1,9 +1,5 @@
 body {
-  background-color: none;
-  background-image: url(billeder/Kontaktbillede.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: #284458;
   }
   
   .flexcontainer {
@@ -18,7 +14,7 @@ body {
     max-width: 310px;
     padding: 30px;
   }
-  
+
 .flexcontainer2 {
 position:absolute;
 width: 600px;
@@ -33,25 +29,40 @@ background-color: #081A26;
 .kontakt_header {
   text-align: start;
   font-family: bahnschrift;
-  font-size: 55px;
+  font-size: 50px;
   color:#f6f6f6 ;
   margin-left:25px;
-  margin-top: 80px;
-  line-height: 1;
+  margin-top: 200px;
+  line-height: 30px;
 }
 
+.mail {
+font-size: 40px;
+}
+
+.nummer {
+font-size: 40px;
+
+}
+
+.kontakt_title {
+  font-size: 40px;
+  font-family: bahnschrift;
+  color: #f6f6f6;
+  margin-bottom: -20px;
+}
 
 .kontaktform {
   margin-top: 150px ;
-  margin-left: 850px;
+  margin-left: 870px;
   }
 
 input[type=text], select, textarea {
   width: 70%;
   padding: 12px;
-  border: 0.5px solid #081A26;
+  border: 1px solid #081A26;
   background-color: #f6f6f6;
-  color: #f6f6f6;
+  color: #000000;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 30px;
