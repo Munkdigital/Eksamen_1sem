@@ -23,14 +23,22 @@ body {
   border: #081A26;
   background-color: #081A26;
   }
-  
+
+  .migbild {
+  margin-left:45px;
+  margin-top: 30px;
+  border-radius: 10px;
+
+
+  }
+
   .om_mig-header {
     text-align: start;
     font-family: bahnschrift;
     font-size: 50px;
     color:#f6f6f6 ;
-    margin-left:25px;
-    margin-top: 20px;
+    margin-left:45px;
+    margin-top: -20px;
     line-height: 30px;
   }
   
