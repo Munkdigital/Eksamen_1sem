@@ -1,4 +1,137 @@
 body {
+  background-color: #284458;
+  }
+  .flexcontainer {
+    display:flex;
+    flex-wrap: nowrap;
+    margin: -8px;
+    background-color: #f6f6f6;
+    justify-content: center;
+  }
+
+  div.logo img {
+    max-width: 310px;
+    padding: 30px;
+  }
+
+.container {
+position:absolute;
+width: 600px;
+height:742.5px;
+margin: -8px;
+margin-top: 8px ;
+border: #081A26;
+background-color: #081A26;
+}
+
+.migbild {
+margin-left:135px;
+margin-top: 30px;
+border: solid 3px #284458;
+border-radius: 50%;
+width:300px;
+}
+
+p {
+font-size: 25px;
+line-height: 40px;
+margin-top: -15px;
+font-family: bahnschrift light;
+}
+
+.btn {
+background-color: #eb3845;
+border: none;
+color:#f6f6f6;
+font-family: bahnschrift;
+cursor: pointer;
+width: 95px;
+padding: 12px 20px;
+border-radius: 4px;
+}
+
+.om_mig-header {
+  text-align: start;
+  font-family: bahnschrift;
+  font-size: 50px;
+  color:#f6f6f6 ;
+  margin-left:45px;
+  margin-top: -15px;
+  line-height: 10px;
+}
+
+.komp {
+font-size: 100px;
+margin-left:710px;
+font-family: bahnschrift;
+color: #f6f6f6;
+margin-top: 160px;
+
+}
+
+.komp1 {
+font-size: 25px;
+margin-left: 710px;
+color:#f6f6f6;
+font-family: bahnschrift light;
+margin-top: -65px
+
+}
+
+.flexcontainer2 {
+margin-top: 80px;
+}
+
+.ph img{
+width: 125px;
+}
+
+.il img{
+width: 125px;
+}
+
+.in img {
+width: 125px;
+}
+
+.xd img {
+width: 125px;
+}
+
+.pr img{
+width: 125px;
+}
+
+.an img{
+width: 125px;
+}
+
+.icons {
+  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-left: 600px;
+  margin-top:-60px;
+  color: #f6f6f6;
+  font-family: bahnschrift light;
+  font-size: 20px;
+  text-align: center;
+}
+
+.icons > div {
+background-color: #081A26;
+border: 1px solid #081A26;
+border-radius: 15px;
+padding: 10px;
+height: 200px;
+}
+
+@media only screen and (min-width: 1715px) {
+
+body {
     background-color: #284458;
     }
     .flexcontainer {
@@ -82,6 +215,30 @@ margin-top: -65px
 margin-top: 80px;
 }
 
+.ph img{
+  width: 150px;
+}
+
+.il img{
+  width: 150px;
+}
+
+.in img {
+  width: 150px;
+}
+
+.xd img {
+  width: 150px;
+}
+
+.pr img{
+  width: 150px;
+}
+
+.an img{
+  width: 150px;
+}
+
 .icons {
     position: relative;
     display:flex;
@@ -95,8 +252,6 @@ margin-top: 80px;
     font-family: bahnschrift light;
     font-size: 20px;
     text-align: center;
-  
-
   }
 
   .icons > div {
@@ -106,3 +261,5 @@ margin-top: 80px;
   padding: 10px;
   height: 250px;
   }
+
+}
