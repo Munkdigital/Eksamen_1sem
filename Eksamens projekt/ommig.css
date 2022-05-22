@@ -25,12 +25,30 @@ body {
   }
 
   .migbild {
-  margin-left:45px;
+  margin-left:135px;
   margin-top: 30px;
-  border-radius: 10px;
-
-
+  border: solid 3px #284458;
+  border-radius: 50%;
+  width:300px;
   }
+
+p {
+font-size: 25px;
+line-height: 40px;
+margin-top: -15px;
+font-family: bahnschrift light;
+}
+
+.btn {
+background-color: #eb3845;
+border: none;
+color:#f6f6f6;
+font-family: bahnschrift;
+cursor: pointer;
+width: 95px;
+padding: 12px 20px;
+border-radius: 4px;
+}
 
   .om_mig-header {
     text-align: start;
@@ -38,23 +56,30 @@ body {
     font-size: 50px;
     color:#f6f6f6 ;
     margin-left:45px;
-    margin-top: -20px;
-    line-height: 30px;
+    margin-top: -15px;
+    line-height: 10px;
   }
   
-  .mail {
-  font-size: 40px;
-  }
-  
-  .nummer {
-  font-size: 40px;
-  }
+.komp {
+font-size: 100px;
+margin-left:710px;
+font-family: bahnschrift;
+color: #f6f6f6;
+margin-top: 100px;
 
+}
+
+.komp1 {
+font-size: 25px;
+margin-left: 710px;
+color:#f6f6f6;
+font-family: bahnschrift light;
+margin-top: -65px
+
+}
 
 .flexcontainer2 {
 margin-top: 80px;
-
-
 }
 
 .icons {
@@ -64,7 +89,10 @@ margin-top: 80px;
     flex-direction: row;
     gap: 10px;
     justify-content: center;
-    margin-left: 600px
+    margin-left: 600px;
+    color: #f6f6f6;
+    text-align: center;
+  
 
   }
 
@@ -73,5 +101,5 @@ margin-top: 80px;
   border: 1px solid #081A26;
   border-radius: 15px;
   padding: 10px;
-  height: 300px;
+  height: 250px;
   }
