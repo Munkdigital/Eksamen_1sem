@@ -30,7 +30,7 @@ body {
     font-size: 50px;
     color:#f6f6f6 ;
     margin-left:25px;
-    margin-top: 192px;
+    margin-top: 20px;
     line-height: 30px;
   }
   
@@ -43,19 +43,9 @@ body {
   }
 
 
-.migbild {
-display: flex;
-flex-wrap: wrap;
-float: rigt; 
-margin-right: 350px;
-margin-top: 60px;
-width:600px;
-
-
-}
-
 .flexcontainer2 {
-float:right
+margin-top: 80px;
+
 
 }
 
@@ -65,5 +55,15 @@ float:right
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;
-    
-    }
+    justify-content: center;
+    margin-left: 600px
+
+  }
+
+  .icons > div {
+  background-color: #081A26;
+  border: 1px solid #081A26;
+  border-radius: 15px;
+  padding: 10px;
+  height: 300px;
+  }
