@@ -65,7 +65,7 @@ font-size: 100px;
 margin-left:710px;
 font-family: bahnschrift;
 color: #f6f6f6;
-margin-top: 100px;
+margin-top: 160px;
 
 }
 
@@ -90,7 +90,10 @@ margin-top: 80px;
     gap: 10px;
     justify-content: center;
     margin-left: 600px;
+    margin-top:-60px;
     color: #f6f6f6;
+    font-family: bahnschrift light;
+    font-size: 20px;
     text-align: center;
   
 
