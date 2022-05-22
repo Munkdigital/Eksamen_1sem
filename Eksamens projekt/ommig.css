@@ -1,7 +1,6 @@
 body {
     background-color: #284458;
     }
-    
     .flexcontainer {
       display:flex;
       flex-wrap: nowrap;
@@ -25,7 +24,7 @@ body {
   background-color: #081A26;
   }
   
-  .kontakt_header {
+  .om_mig-header {
     text-align: start;
     font-family: bahnschrift;
     font-size: 50px;
@@ -41,33 +40,30 @@ body {
   
   .nummer {
   font-size: 40px;
-  
   }
 
-.om_mig {grid-area: billede;}
-.ph {grid-area: ph;}
-.il {grid-area: il;}
-.in {grid-area: in;}
-.xd {grid-area: xd;}
-.pr {grid-area: pr;}
-.an {grid-area: an;}
 
-.gridcontainer {
-margin-top: 8px;
-float: right;
-display: grid;
-grid-template-areas: 
-'om_mig om_mig om_mig om_mig om_mig om_mig'
-'ph il in xd pr an';
-gap:10px;
+.migbild {
+display: flex;
+flex-wrap: wrap;
+float: rigt; 
+margin-right: 350px;
+margin-top: 60px;
+width:600px;
+
 
 }
 
-.gridcontainer > div {
-text-align: center;
+.flexcontainer2 {
+float:right
 
 }
 
-.om_mig {
-width: 400px;
-}
+.icons {
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    
+    }
