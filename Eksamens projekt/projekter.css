@@ -43,3 +43,155 @@ background-color: #284458;
     font-size: 40px;
     
     }
+
+  .gridcontainer {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  margin-top: 100px;
+  margin-left: 790px;
+  gap: 10px
+
+  }
+
+.gridcontainer > div img {
+  max-width:300px;
+  width: auto;
+}
+
+.apppt {
+  position:relative;
+  width: 300px;
+  height: 300px;
+
+  }
+
+.apppt_overlay  {
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+  transition: 0.25s;
+
+  }
+
+
+  .beachpt {
+    position:relative;
+    width: 300px;
+    height: 300px;
+  
+    }
+  
+  .beachpt_overlay  {
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    transition: 0.25s;
+  
+    }
+
+
+    .gboypt {
+      position:relative;
+      width: 300px;
+      height: 300px;
+    
+      }
+    
+    .gboypt_overlay  {
+      position:absolute;
+      top:0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      background: rgba(0, 0, 0, 0.6);
+      align-items: center;
+      justify-content: center;
+      opacity: 100%;
+      transition: 0.25s;
+    
+      }
+
+
+      .kbmpt {
+        position:relative;
+        width: 300px;
+        height: 300px;
+      
+        }
+      
+      .kbmpt_overlay  {
+        position:absolute;
+        top:0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        background: rgba(0, 0, 0, 0.6);
+        align-items: center;
+        justify-content: center;
+        opacity: 100%;
+        transition: 0.25s;
+      
+        }
+
+
+        .klientpt {
+          position:relative;
+          width: 300px;
+          height: 300px;
+        
+          }
+        
+        .klientpt_overlay  {
+          position:absolute;
+          top:0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          background: rgba(0, 0, 0, 0.6);
+          align-items: center;
+          justify-content: center;
+          opacity: 100%;
+          transition: 0.25s;
+        
+          }
+
+
+          .portraitpt {
+            position:relative;
+            width: 300px;
+            height: 300px;
+          
+            }
+          
+          .portraitpt_overlay  {
+            position:absolute;
+            top:0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            background: rgba(0, 0, 0, 0.6);
+            align-items: center;
+            justify-content: center;
+            opacity: 100%;
+            transition: 0.25s;
+          
+            }
