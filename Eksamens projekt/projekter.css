@@ -17,6 +17,247 @@ body {
   
     .flexcontainer2 {
       position:absolute;
+    
+      }
+  
+      .portfolio_header {
+        text-align: start;
+        font-family: bahnschrift;
+        font-size: 30px;
+        color:#f6f6f6 ;
+        margin-left:25px;
+        margin-top: 70px;
+        line-height: 30px;
+      }
+      
+      .portfolio {
+      font-size: 20px;
+      line-height: 30px;
+      }
+      
+      .btn {
+        background-color: #eb3845;
+        border: none;
+        color:#f6f6f6;
+        cursor: pointer;
+        width: 95px;
+        padding: 12px 20px;
+        border-radius: 4px;
+        }
+  
+     .header {
+     position: relative;
+     margin-top: 330px;
+     margin-left: 22px;
+     font-size: 22px;
+     font-family: bahnschrift light;
+     color:#f6f6f6;
+     }  
+  
+    .gridcontainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px 150px ;
+    margin-left: 0px;
+    gap: 10px
+  
+    }
+  
+  .gridcontainer > div img {
+    max-width:150px;
+    width: auto;
+  }
+  
+  .apppt {
+    position:relative;
+    width: 150px;
+    height: 150px;
+  
+    }
+  
+  .apppt_overlay  {
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    transition: 0.25s;
+  
+    }
+  
+    .apppt_overlay:hover {
+      opacity: 100%;
+      transform: scale(1.1,1.1);
+      z-index: 1;
+    }
+  
+  
+    .beachpt {
+      position:relative;
+      width: 150px;
+      height: 150px;
+    
+      }
+    
+    .beachpt_overlay  {
+      position:absolute;
+      top:0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      background: rgba(0, 0, 0, 0.6);
+      align-items: center;
+      justify-content: center;
+      opacity: 0%;
+      transition: 0.25s;
+    
+      }
+  
+      .beachpt_overlay:hover {
+        opacity: 100%;
+        transform: scale(1.1,1.1);
+        z-index: 1;
+      }
+  
+      .gboypt {
+        position:relative;
+        width: 150px;
+        height: 150px;
+      
+        }
+      
+      .gboypt_overlay  {
+        position:absolute;
+        top:0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0%;
+        transition: 0.25s;
+        }
+  
+        .gboypt_overlay:hover {
+          opacity: 100%;
+          transform: scale(1.1,1.1);
+          z-index: 1;
+        }
+  
+  
+        .kbmpt {
+          position:relative;
+          width: 150px;
+          height: 150px;
+        
+          }
+        
+        .kbmpt_overlay  {
+          position:absolute;
+          top:0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          background: rgba(0, 0, 0, 0.6);
+          align-items: center;
+          justify-content: center;
+          opacity: 0%;
+          transition: 0.25s;
+        
+          }
+  
+          .kbmpt_overlay:hover {
+            opacity: 100%;
+            transform: scale(1.1,1.1);
+            z-index: 1;
+          }
+  
+  
+          .klientpt {
+            position:relative;
+            width: 150px;
+            height: 150px;
+          
+            }
+          
+          .klientpt_overlay  {
+            position:absolute;
+            top:0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            background: rgba(0, 0, 0, 0.6);
+            align-items: center;
+            justify-content: center;
+            opacity: 0%;
+            transition: 0.25s;
+          
+            }
+  
+            .klientpt_overlay:hover {
+              opacity: 100%;
+              transform: scale(1.1,1.1);
+              z-index: 1;
+            }
+  
+            .portraitpt {
+              position:relative;
+              width: 150px;
+              height: 150px;
+            
+              }
+            
+            .portraitpt_overlay  {
+              position:absolute;
+              top:0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              opacity: 0%;
+              transition: 0.25s;
+            
+              }
+  
+              .portraitpt_overlay:hover {
+                opacity: 100%;
+                transform: scale(1.1,1.1);
+                z-index: 1;
+              }
+
+@media only screen and (min-width: 650px) {
+
+body {
+  background-color: #081A26;
+  }
+  
+  .flexcontainer {
+      display:flex;
+      flex-wrap: nowrap;
+      margin: -8px;
+      background-color: #f6f6f6;
+      justify-content: center;
+    }
+  
+    div.logo img {
+      max-width: 310px;
+      padding: 30px;
+    }
+  
+    .flexcontainer2 {
+      position:absolute;
       width: 600px;
       height:742.5px;
       margin: -8px;
@@ -241,10 +482,7 @@ body {
                 transform: scale(1.1,1.1);
                 z-index: 1;
               }
-
-
-
-
+}
 
 @media only screen and (min-width: 1120px) {
 
