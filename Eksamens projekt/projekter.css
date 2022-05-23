@@ -1,3 +1,7 @@
+body {
+background-color: #284458;
+}
+
 .flexcontainer {
     display:flex;
     flex-wrap: nowrap;
@@ -10,3 +14,32 @@
     max-width: 310px;
     padding: 30px;
   }
+
+  .flexcontainer2 {
+    position:absolute;
+    width: 600px;
+    height:742.5px;
+    margin: -8px;
+    margin-top: 8px ;
+    border: #081A26;
+    background-color: #081A26;
+    }
+
+    .portfolio_header {
+      text-align: start;
+      font-family: bahnschrift;
+      font-size: 50px;
+      color:#f6f6f6 ;
+      margin-left:25px;
+      margin-top: 192px;
+      line-height: 30px;
+    }
+    
+    .mail {
+    font-size: 40px;
+    }
+    
+    .nummer {
+    font-size: 40px;
+    
+    }
