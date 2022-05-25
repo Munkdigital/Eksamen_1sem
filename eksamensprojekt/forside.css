@@ -20,7 +20,7 @@ div.logo img {
 font-size: 30px;
 text-align: center;
 color: #f6f6f6;
-font-family: bahnschrift;
+font-family: bahnschrift,'Oswald', sans-serif;
 }
 
 
@@ -56,7 +56,7 @@ font-family: bahnschrift;
   height: 100%;
   width: 100%;
   color:#f6f6f6;
-  font-family: bahnschrift;
+  font-family: bahnschrift, 'Oswald', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,7 +91,7 @@ font-family: bahnschrift;
     height: 100%;
     width: 100%;
     color:#f6f6f6;
-    font-family: bahnschrift;
+    font-family: bahnschrift, 'Oswald', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +126,7 @@ font-family: bahnschrift;
     height: 100%;
     width: 100%;
     color:#f6f6f6;
-    font-family: bahnschrift;
+    font-family: bahnschrift, 'Oswald', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +152,7 @@ font-family: bahnschrift;
     width: 1000px;
     height: 150px;
     margin:auto;
-    background: url('billeder/anim11_Tegnebræt\ 1.png') 0 0 no-repeat; 	 
+    background: url('billeder/animationtop.png') 0 0 no-repeat; 	 
     animation: play 5s steps(97) infinite;
     }
   
@@ -165,7 +165,7 @@ font-family: bahnschrift;
       font-size: 40px;
       text-align: center;
       color: #f6f6f6;
-      font-family: bahnschrift;
+      font-family: bahnschrift, 'Oswald', sans-serif;
       }
   
     .flexcontainer2 {
@@ -198,7 +198,7 @@ font-family: bahnschrift;
     border-radius: 70px;
     background: rgba(0, 0, 0, 0.6);
     color:#f6f6f6;
-    font-family: bahnschrift;
+    font-family: bahnschrift, 'Oswald', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,7 +239,7 @@ font-family: bahnschrift;
     border-radius: 70px;
     background: rgba(0, 0, 0, 0.6);
     color:#f6f6f6;
-    font-family: bahnschrift;
+    font-family: bahnschrift, 'Oswald', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,7 +280,7 @@ font-family: bahnschrift;
     border-radius: 70px;
     background: rgba(0, 0, 0, 0.6);
     color:#f6f6f6;
-    font-family: bahnschrift;
+    font-family: bahnschrift, 'Oswald', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -312,7 +312,7 @@ font-family: bahnschrift;
 	width: 1000px;
 	height: 150px;
   margin:auto;
-	background: url('billeder/anim11_Tegnebræt\ 1.png') 0 0 no-repeat; 	 
+	background: url('billeder/animationtop.png') 0 0 no-repeat; 	 
 	animation: play 5s steps(97) infinite;
   }
 
@@ -325,7 +325,7 @@ font-family: bahnschrift;
     font-size: 50px;
     text-align: center;
     color: #f6f6f6;
-    font-family: bahnschrift;
+    font-family: bahnschrift, 'Oswald', sans-serif;
     }
 
   .flexcontainer2 {
@@ -358,7 +358,7 @@ font-family: bahnschrift;
   border-radius: 70px;
   background: rgba(0, 0, 0, 0.6);
   color:#f6f6f6;
-  font-family: bahnschrift;
+  font-family: bahnschrift, 'Oswald', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,7 +399,7 @@ font-family: bahnschrift;
   border-radius: 70px;
   background: rgba(0, 0, 0, 0.6);
   color:#f6f6f6;
-  font-family: bahnschrift;
+  font-family: bahnschrift, 'Oswald', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -440,7 +440,7 @@ font-family: bahnschrift;
   border-radius: 70px;
   background: rgba(0, 0, 0, 0.6);
   color:#f6f6f6;
-  font-family: bahnschrift;
+  font-family: bahnschrift, 'Oswald', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;

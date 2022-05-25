@@ -22,7 +22,7 @@ body {
   
       .portfolio_header {
         text-align: start;
-        font-family: bahnschrift;
+        font-family: bahnschrift, 'Oswald', sans-serif;
         font-size: 30px;
         color:#f6f6f6 ;
         margin-left:25px;
@@ -50,7 +50,7 @@ body {
      margin-top: 330px;
      margin-left: 22px;
      font-size: 22px;
-     font-family: bahnschrift light;
+     font-family: bahnschrift light, 'Oswald', sans-serif;
      color:#f6f6f6;
      }  
   
@@ -268,7 +268,7 @@ body {
   
       .portfolio_header {
         text-align: start;
-        font-family: bahnschrift;
+        font-family: bahnschrift, 'Oswald', sans-serif;
         font-size: 50px;
         color:#f6f6f6 ;
         margin-left:25px;
@@ -296,7 +296,7 @@ body {
      margin-top: 350px;
      margin-left: 22px;
      font-size: 22px;
-     font-family: bahnschrift light;
+     font-family: bahnschrift light, 'Oswald', sans-serif;
      color:#f6f6f6;
      }  
   
@@ -515,7 +515,7 @@ body {
   
       .portfolio_header {
         text-align: start;
-        font-family: bahnschrift;
+        font-family: bahnschrift, 'Oswald', sans-serif;
         font-size: 50px;
         color:#f6f6f6 ;
         margin-left:25px;
@@ -542,7 +542,7 @@ body {
      margin-top: 50px;
      margin-left: 600px;
      font-size: 40px;
-     font-family: bahnschrift;
+     font-family: bahnschrift, 'Oswald', sans-serif;
      color:#f6f6f6;
      }  
   
@@ -760,7 +760,7 @@ body {
   
       .portfolio_header {
         text-align: start;
-        font-family: bahnschrift;
+        font-family: bahnschrift, 'Oswald', sans-serif;
         font-size: 50px;
         color:#f6f6f6 ;
         margin-left:25px;
@@ -787,7 +787,7 @@ body {
      margin-top: 50px;
      margin-left: 850px;
      font-size: 40px;
-     font-family: bahnschrift;
+     font-family: bahnschrift, 'Oswald', sans-serif;
      color:#f6f6f6;
      }  
   
@@ -1006,7 +1006,7 @@ background-color: #284458;
 
     .portfolio_header {
       text-align: start;
-      font-family: bahnschrift;
+      font-family: bahnschrift, 'Oswald', sans-serif;
       font-size: 50px;
       color:#f6f6f6 ;
       margin-left:25px;
@@ -1033,7 +1033,7 @@ background-color: #284458;
    margin-top: 50px;
    margin-left: 1015px;
    font-size: 40px;
-   font-family: bahnschrift;
+   font-family: bahnschrift, 'Oswald', sans-serif;
    color:#f6f6f6;
    }  
 

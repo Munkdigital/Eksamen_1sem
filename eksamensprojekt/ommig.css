@@ -32,7 +32,7 @@ p {
 font-size: 15px;
 line-height: 30px;
 margin-top: -5px;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
 .btn {
@@ -47,7 +47,7 @@ border-radius: 4px;
 
 .om_mig-header {
   text-align: start;
-  font-family: bahnschrift;
+  font-family: bahnschrift, 'Oswald', sans-serif;
   font-size: 20px;
   color:#f6f6f6 ;
   margin-left:45px;
@@ -58,7 +58,7 @@ border-radius: 4px;
 .komp {
 font-size: 50px;
 margin-left:45px;
-font-family: bahnschrift;
+font-family: bahnschrift, 'Oswald', sans-serif;
 color: #f6f6f6;
 margin-top: 500px;
 
@@ -68,7 +68,7 @@ margin-top: 500px;
 font-size: 15px;
 margin-left: 45px;
 color:#f6f6f6;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 margin-top: -30px;
 line-height: 30px;
 }
@@ -111,7 +111,7 @@ width: 100px;
   margin-left: 0px;
   margin-top: -60px;
   color: #f6f6f6;
-  font-family: bahnschrift light;
+  font-family: bahnschrift light, 'Oswald', sans-serif;
   font-size: 15px;
   text-align: center;
 }
@@ -162,7 +162,7 @@ p {
 font-size: 25px;
 line-height: 40px;
 margin-top: -15px;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
 .btn {
@@ -177,7 +177,7 @@ border-radius: 4px;
 
 .om_mig-header {
   text-align: start;
-  font-family: bahnschrift;
+  font-family: bahnschrift, 'Oswald', sans-serif;
   font-size: 50px;
   color:#f6f6f6 ;
   margin-left:45px;
@@ -188,7 +188,7 @@ border-radius: 4px;
 .komp {
 font-size: 50px;
 margin-left:600px;
-font-family: bahnschrift;
+font-family: bahnschrift, 'Oswald', sans-serif;
 color: #f6f6f6;
 margin-top: 20px;
 
@@ -198,7 +198,7 @@ margin-top: 20px;
 font-size: 15px;
 margin-left: 600px;
 color:#f6f6f6;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 margin-top: -30px;
 line-height: 30px;
 }
@@ -241,7 +241,7 @@ width: 100px;
   margin-left: 600px;
   margin-top:-60px;
   color: #f6f6f6;
-  font-family: bahnschrift light;
+  font-family: bahnschrift light, 'Oswald', sans-serif;
   font-size: 15px;
   text-align: center;
 }
@@ -296,7 +296,7 @@ p {
 font-size: 25px;
 line-height: 40px;
 margin-top: -15px;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
 .btn {
@@ -311,7 +311,7 @@ border-radius: 4px;
 
 .om_mig-header {
   text-align: start;
-  font-family: bahnschrift;
+  font-family: bahnschrift, 'Oswald', sans-serif;
   font-size: 50px;
   color:#f6f6f6 ;
   margin-left:45px;
@@ -322,7 +322,7 @@ border-radius: 4px;
 .komp {
 font-size: 70px;
 margin-left:650px;
-font-family: bahnschrift;
+font-family: bahnschrift, 'Oswald', sans-serif;
 color: #f6f6f6;
 margin-top: 160px;
 
@@ -332,7 +332,7 @@ margin-top: 160px;
 font-size: 20px;
 margin-left: 650px;
 color:#f6f6f6;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 margin-top: -50px;
 line-height: 30px;
 
@@ -377,7 +377,7 @@ width: 125px;
   margin-left: 600px;
   margin-top:-60px;
   color: #f6f6f6;
-  font-family: bahnschrift light;
+  font-family: bahnschrift light, 'Oswald', sans-serif;
   font-size: 20px;
   text-align: center;
 }
@@ -432,7 +432,7 @@ p {
 font-size: 25px;
 line-height: 40px;
 margin-top: -15px;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
 .btn {
@@ -447,7 +447,7 @@ border-radius: 4px;
 
   .om_mig-header {
     text-align: start;
-    font-family: bahnschrift;
+    font-family: bahnschrift, 'Oswald', sans-serif;
     font-size: 50px;
     color:#f6f6f6 ;
     margin-left:45px;
@@ -458,7 +458,7 @@ border-radius: 4px;
 .komp {
 font-size: 100px;
 margin-left:710px;
-font-family: bahnschrift;
+font-family: bahnschrift, 'Oswald', sans-serif;
 color: #f6f6f6;
 margin-top: 160px;
 
@@ -468,7 +468,7 @@ margin-top: 160px;
 font-size: 25px;
 margin-left: 710px;
 color:#f6f6f6;
-font-family: bahnschrift light;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 line-height: 40px;
 margin-top: -65px
 
@@ -512,7 +512,7 @@ margin-top: 80px;
     margin-left: 600px;
     margin-top:-60px;
     color: #f6f6f6;
-    font-family: bahnschrift light;
+    font-family: bahnschrift light, 'Oswald', sans-serif;
     font-size: 20px;
     text-align: center;
   }
