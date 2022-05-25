@@ -41,8 +41,11 @@ body {
         color:#f6f6f6;
         cursor: pointer;
         width: 95px;
-        padding: 12px 20px;
+        padding: 3px 3px;
         border-radius: 4px;
+        font-size: 15px;
+        text-align: center;
+        font-family: bahnschrift light, 'Oswald', sans-serif;
         }
   
      .header {
@@ -59,7 +62,7 @@ body {
     display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: 150px 150px 150px ;
-    margin-left: 0px;
+    margin-left: 22px;
     gap: 10px
   
     }
@@ -287,8 +290,11 @@ body {
         color:#f6f6f6;
         cursor: pointer;
         width: 95px;
-        padding: 12px 20px;
+        padding: 3px 3px;
         border-radius: 4px;
+        font-size: 15px;
+        text-align: center;
+        font-family: bahnschrift light, 'Oswald', sans-serif;
         }
   
      .header {
@@ -534,8 +540,11 @@ body {
         color:#f6f6f6;
         cursor: pointer;
         width: 95px;
-        padding: 12px 20px;
+        padding: 3px 3px;
         border-radius: 4px;
+        font-size: 15px;
+        text-align: center;
+        font-family: bahnschrift light, 'Oswald', sans-serif;
         }
   
      .header {
@@ -779,8 +788,11 @@ body {
         color:#f6f6f6;
         cursor: pointer;
         width: 95px;
-        padding: 12px 20px;
+        padding: 3px 3px;
         border-radius: 4px;
+        font-size: 15px;
+        text-align: center;
+        font-family: bahnschrift light, 'Oswald', sans-serif;
         }
   
      .header {
@@ -1025,8 +1037,11 @@ background-color: #284458;
       color:#f6f6f6;
       cursor: pointer;
       width: 95px;
-      padding: 12px 20px;
+      padding: 3px 3px;
       border-radius: 4px;
+      font-size: 15px;
+      text-align: center;
+      font-family: bahnschrift light, 'Oswald', sans-serif;
       }
 
    .header {
@@ -1220,3 +1235,14 @@ background-color: #284458;
             }
 
           }
+
+          a:link { text-decoration: none; }
+
+
+          a:visited { text-decoration: none; }
+          
+          
+          a:hover { text-decoration: none; }
+          
+          
+          a:active { text-decoration: none; }

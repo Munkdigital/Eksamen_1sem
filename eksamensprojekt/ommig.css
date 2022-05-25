@@ -41,8 +41,11 @@ border: none;
 color:#f6f6f6;
 cursor: pointer;
 width: 95px;
-padding: 12px 20px;
+padding: 12px 3px;
 border-radius: 4px;
+font-size: 15px;
+text-align: center;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
 .om_mig-header {
@@ -171,8 +174,11 @@ border: none;
 color:#f6f6f6;
 cursor: pointer;
 width: 95px;
-padding: 12px 20px;
+padding: 12px 3px;
 border-radius: 4px;
+font-size: 15px;
+text-align: center;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
 .om_mig-header {
@@ -305,8 +311,11 @@ border: none;
 color:#f6f6f6;
 cursor: pointer;
 width: 95px;
-padding: 12px 20px;
+padding: 12px 3px;
 border-radius: 4px;
+font-size: 15px;
+text-align: center;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
 .om_mig-header {
@@ -441,8 +450,11 @@ border: none;
 color:#f6f6f6;
 cursor: pointer;
 width: 95px;
-padding: 12px 20px;
+padding: 12px 3px;
 border-radius: 4px;
+font-size: 15px;
+text-align: center;
+font-family: bahnschrift light, 'Oswald', sans-serif;
 }
 
   .om_mig-header {
@@ -526,3 +538,14 @@ margin-top: 80px;
   }
 
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
