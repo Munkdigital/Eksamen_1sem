@@ -148,7 +148,6 @@ font-family: bahnschrift,'Oswald', sans-serif;
     }
   
     .animation {
-    display: show;
     width: 1000px;
     height: 150px;
     margin:auto;
@@ -157,7 +156,7 @@ font-family: bahnschrift,'Oswald', sans-serif;
     }
   
     @keyframes play {
-    0%{background: position 0px;}
+    0%{background-position: 0px;}
     100% { background-position: -97000px ; }
     }
   
@@ -308,7 +307,6 @@ font-family: bahnschrift,'Oswald', sans-serif;
   }
 
   .animation {
-  display: show;
 	width: 1000px;
 	height: 150px;
   margin:auto;
@@ -317,7 +315,7 @@ font-family: bahnschrift,'Oswald', sans-serif;
   }
 
   @keyframes play {
-	0%{background: position 0px;}
+	0%{background-position: 0px;}
   100% { background-position: -97000px ; }
   }
 
